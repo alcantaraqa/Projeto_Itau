@@ -1,0 +1,88 @@
+body{
+    background-color:rgb(236, 156, 16);
+    font-family:sans-serif; 
+}
+
+#cabecalho{
+    background-color: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: rgb(59, 24, 24) 2px 2px 5px;
+}
+
+#conteudo{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    text-decoration: unset;
+
+}
+
+#NavegacaoBar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#imagemGeral{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#TituloDestaques{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#produtos{
+    display: flex;
+    justify-content: center;
+    width: 100%
+
+}
+
+.ProdutoDestaque{
+  
+    border: gray 1px solid;
+    margin-left: 10px ;
+    margin-right: 10px;
+    box-shadow: black 2px 2px 3px;
+}
+
+.imgDest{
+    
+    width: 70%;
+    margin-left: 12%;
+    margin-bottom: 5px;
+}
+
+.imgDest2{
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+
+/*h3{*/
+/*  text-align: center;*/
+/*  font-size: 30px;*/
+}
+
+#rodape{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
